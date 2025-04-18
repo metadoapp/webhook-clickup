@@ -5,8 +5,8 @@ from datetime import datetime, timedelta
 app = Flask(__name__)
 
 # 🔐 Substitua pelo seu token e ID da lista do ClickUp
-CLICKUP_TOKEN = "SEU_TOKEN_AQUI"
-CLICKUP_LIST_ID = "SEU_ID_DA_LISTA"
+CLICKUP_TOKEN = "HNE7Q5C447KHS44JQ2APVUPZOHEK6J4P53MWLAGN6KSV20S8TTND74LO6TECSRB4"
+CLICKUP_LIST_ID = "90134635156"
 
 def calcular_dias_uteis(data_inicio, dias_uteis):
     data = data_inicio
